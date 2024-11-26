@@ -1,0 +1,182 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ivanp\\Desktop\\finki\\Semestar 5\\IB\\Domashna\\IBLab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/IBLabContext_ce78ba6e_aa88_4724_b6c3_ba4090d8d08f/True/SqlTable/dbo.TempUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD19FBD-D9D7-4EC2-9D1B-B2A8D0CEDA38}|IBLab\\IBLab.csproj|c:\\users\\ivanp\\desktop\\finki\\semestar 5\\ib\\domashna\\iblab\\iblab\\service\\impl\\userserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FD19FBD-D9D7-4EC2-9D1B-B2A8D0CEDA38}|IBLab\\IBLab.csproj|solutionrelative:iblab\\service\\impl\\userserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD19FBD-D9D7-4EC2-9D1B-B2A8D0CEDA38}|IBLab\\IBLab.csproj|c:\\users\\ivanp\\desktop\\finki\\semestar 5\\ib\\domashna\\iblab\\iblab\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FD19FBD-D9D7-4EC2-9D1B-B2A8D0CEDA38}|IBLab\\IBLab.csproj|solutionrelative:iblab\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/IBLabContext_ce78ba6e_aa88_4724_b6c3_ba4090d8d08f/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD19FBD-D9D7-4EC2-9D1B-B2A8D0CEDA38}|IBLab\\IBLab.csproj|c:\\users\\ivanp\\desktop\\finki\\semestar 5\\ib\\domashna\\iblab\\iblab\\service\\impl\\cleanupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FD19FBD-D9D7-4EC2-9D1B-B2A8D0CEDA38}|IBLab\\IBLab.csproj|solutionrelative:iblab\\service\\impl\\cleanupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD19FBD-D9D7-4EC2-9D1B-B2A8D0CEDA38}|IBLab\\IBLab.csproj|c:\\users\\ivanp\\desktop\\finki\\semestar 5\\ib\\domashna\\iblab\\iblab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FD19FBD-D9D7-4EC2-9D1B-B2A8D0CEDA38}|IBLab\\IBLab.csproj|solutionrelative:iblab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD19FBD-D9D7-4EC2-9D1B-B2A8D0CEDA38}|IBLab\\IBLab.csproj|c:\\users\\ivanp\\desktop\\finki\\semestar 5\\ib\\domashna\\iblab\\iblab\\repository\\impl\\tempuserrepositoryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FD19FBD-D9D7-4EC2-9D1B-B2A8D0CEDA38}|IBLab\\IBLab.csproj|solutionrelative:iblab\\repository\\impl\\tempuserrepositoryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD19FBD-D9D7-4EC2-9D1B-B2A8D0CEDA38}|IBLab\\IBLab.csproj|c:\\users\\ivanp\\desktop\\finki\\semestar 5\\ib\\domashna\\iblab\\iblab\\repository\\interfaces\\itempuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FD19FBD-D9D7-4EC2-9D1B-B2A8D0CEDA38}|IBLab\\IBLab.csproj|solutionrelative:iblab\\repository\\interfaces\\itempuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD19FBD-D9D7-4EC2-9D1B-B2A8D0CEDA38}|IBLab\\IBLab.csproj|c:\\users\\ivanp\\desktop\\finki\\semestar 5\\ib\\domashna\\iblab\\iblab\\repository\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FD19FBD-D9D7-4EC2-9D1B-B2A8D0CEDA38}|IBLab\\IBLab.csproj|solutionrelative:iblab\\repository\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD19FBD-D9D7-4EC2-9D1B-B2A8D0CEDA38}|IBLab\\IBLab.csproj|c:\\users\\ivanp\\desktop\\finki\\semestar 5\\ib\\domashna\\iblab\\iblab\\repository\\impl\\userrepositoryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FD19FBD-D9D7-4EC2-9D1B-B2A8D0CEDA38}|IBLab\\IBLab.csproj|solutionrelative:iblab\\repository\\impl\\userrepositoryimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CleanupService.cs",
+              "DocumentMoniker": "C:\\Users\\ivanp\\Desktop\\finki\\Semestar 5\\IB\\Domashna\\IBLab\\IBLab\\Service\\impl\\CleanupService.cs",
+              "RelativeDocumentMoniker": "IBLab\\Service\\impl\\CleanupService.cs",
+              "ToolTip": "C:\\Users\\ivanp\\Desktop\\finki\\Semestar 5\\IB\\Domashna\\IBLab\\IBLab\\Service\\impl\\CleanupService.cs",
+              "RelativeToolTip": "IBLab\\Service\\impl\\CleanupService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T23:43:50.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TempUserRepositoryImpl.cs",
+              "DocumentMoniker": "C:\\Users\\ivanp\\Desktop\\finki\\Semestar 5\\IB\\Domashna\\IBLab\\IBLab\\Repository\\Impl\\TempUserRepositoryImpl.cs",
+              "RelativeDocumentMoniker": "IBLab\\Repository\\Impl\\TempUserRepositoryImpl.cs",
+              "ToolTip": "C:\\Users\\ivanp\\Desktop\\finki\\Semestar 5\\IB\\Domashna\\IBLab\\IBLab\\Repository\\Impl\\TempUserRepositoryImpl.cs",
+              "RelativeToolTip": "IBLab\\Repository\\Impl\\TempUserRepositoryImpl.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T23:34:09.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserRepositoryImpl.cs",
+              "DocumentMoniker": "C:\\Users\\ivanp\\Desktop\\finki\\Semestar 5\\IB\\Domashna\\IBLab\\IBLab\\Repository\\Impl\\UserRepositoryImpl.cs",
+              "RelativeDocumentMoniker": "IBLab\\Repository\\Impl\\UserRepositoryImpl.cs",
+              "ToolTip": "C:\\Users\\ivanp\\Desktop\\finki\\Semestar 5\\IB\\Domashna\\IBLab\\IBLab\\Repository\\Impl\\UserRepositoryImpl.cs",
+              "RelativeToolTip": "IBLab\\Repository\\Impl\\UserRepositoryImpl.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwDIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T22:58:14.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ivanp\\Desktop\\finki\\Semestar 5\\IB\\Domashna\\IBLab\\IBLab\\Repository\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "IBLab\\Repository\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\ivanp\\Desktop\\finki\\Semestar 5\\IB\\Domashna\\IBLab\\IBLab\\Repository\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "IBLab\\Repository\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T22:58:12.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dbo.TempUsers [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/IBLabContext_ce78ba6e_aa88_4724_b6c3_ba4090d8d08f/True/SqlTable/dbo.TempUsers.sql",
+              "ToolTip": "dbo.TempUsers [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-25T23:29:45.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dbo.Users [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/IBLabContext_ce78ba6e_aa88_4724_b6c3_ba4090d8d08f/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "dbo.Users [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-25T23:29:47.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserServiceImpl.cs",
+              "DocumentMoniker": "C:\\Users\\ivanp\\Desktop\\finki\\Semestar 5\\IB\\Domashna\\IBLab\\IBLab\\Service\\impl\\UserServiceImpl.cs",
+              "RelativeDocumentMoniker": "IBLab\\Service\\impl\\UserServiceImpl.cs",
+              "ToolTip": "C:\\Users\\ivanp\\Desktop\\finki\\Semestar 5\\IB\\Domashna\\IBLab\\IBLab\\Service\\impl\\UserServiceImpl.cs",
+              "RelativeToolTip": "IBLab\\Service\\impl\\UserServiceImpl.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAIwKoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T22:57:33.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\ivanp\\Desktop\\finki\\Semestar 5\\IB\\Domashna\\IBLab\\IBLab\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "IBLab\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\ivanp\\Desktop\\finki\\Semestar 5\\IB\\Domashna\\IBLab\\IBLab\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "IBLab\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwDEAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T22:18:30.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ITempUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ivanp\\Desktop\\finki\\Semestar 5\\IB\\Domashna\\IBLab\\IBLab\\Repository\\Interfaces\\ITempUserRepository.cs",
+              "RelativeDocumentMoniker": "IBLab\\Repository\\Interfaces\\ITempUserRepository.cs",
+              "ToolTip": "C:\\Users\\ivanp\\Desktop\\finki\\Semestar 5\\IB\\Domashna\\IBLab\\IBLab\\Repository\\Interfaces\\ITempUserRepository.cs",
+              "RelativeToolTip": "IBLab\\Repository\\Interfaces\\ITempUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T23:40:46.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ivanp\\Desktop\\finki\\Semestar 5\\IB\\Domashna\\IBLab\\IBLab\\Program.cs",
+              "RelativeDocumentMoniker": "IBLab\\Program.cs",
+              "ToolTip": "C:\\Users\\ivanp\\Desktop\\finki\\Semestar 5\\IB\\Domashna\\IBLab\\IBLab\\Program.cs",
+              "RelativeToolTip": "IBLab\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T23:48:24.662Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
