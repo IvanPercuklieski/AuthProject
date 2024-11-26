@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IBLab")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99ba2a686b8609870e25005c0fb61103b3000bb0")]
 [assembly: System.Reflection.AssemblyProductAttribute("IBLab")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IBLab")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

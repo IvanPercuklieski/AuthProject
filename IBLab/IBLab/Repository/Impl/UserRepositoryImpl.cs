@@ -52,5 +52,11 @@ namespace IBLab.Repository.Impl
         {
             return _context.TempUsers.FirstOrDefault(u => u.Username == username);
         }
+
+        public void DeleteTempUserByUsername(string username)
+        {
+            _context.TempUsers.Remove(_context.TempUsers.FirstOrDefault(c => c.Username == username));
+            _context.SaveChanges();
+        }
     }
 }

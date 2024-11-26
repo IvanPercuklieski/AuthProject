@@ -262,3 +262,4 @@ C:\Users\ivanp\Desktop\finki\Semestar 5\IB\Domashna\IBLab\IBLab\obj\Debug\net8.0
 C:\Users\ivanp\Desktop\finki\Semestar 5\IB\Domashna\IBLab\IBLab\obj\Debug\net8.0\IBLab.pdb
 C:\Users\ivanp\Desktop\finki\Semestar 5\IB\Domashna\IBLab\IBLab\obj\Debug\net8.0\IBLab.genruntimeconfig.cache
 C:\Users\ivanp\Desktop\finki\Semestar 5\IB\Domashna\IBLab\IBLab\obj\Debug\net8.0\ref\IBLab.dll
+C:\Users\ivanp\Desktop\finki\Semestar 5\IB\Domashna\IBLab\IBLab\obj\Debug\net8.0\IBLab.sourcelink.json

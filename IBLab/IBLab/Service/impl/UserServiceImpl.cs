@@ -7,6 +7,7 @@ using MimeKit;
 using MailKit;
 using System.Security.Cryptography;
 using MailKit.Net.Smtp;
+using System.Numerics;
 
 
 namespace IBLab.Service.impl
@@ -82,11 +83,11 @@ namespace IBLab.Service.impl
             return $"{Convert.ToHexString(hash)}-{Convert.ToHexString(salt)}";
         }
 
-        public void SendEmail(string email)
+        public void SendEmail(string email, string code)
         {
             const string emailAddress = "ivaniblabs@gmail.com";
             const string emailPassword = "kvwz zwhq ntxi uqrr";
-            //var otp = GenerateOTP();
+            
 
             MimeMessage message = new MimeMessage();
             message.From.Add(new MailboxAddress("Ivan", "ivaniblabs@gmail.com"));
@@ -94,7 +95,7 @@ namespace IBLab.Service.impl
             message.Subject = "Email Verification";
             message.Body = new TextPart("plain")
             {
-                Text = $"Your verification code is .\nThis code will expire in 3 minutes!"
+                Text = $"Your verification code is {code}.\nThis code will expire in 3 minutes!"
             };
 
             SmtpClient client = new SmtpClient();
@@ -137,18 +138,28 @@ namespace IBLab.Service.impl
 
         public void CreateTempUser(string email, string username, string password)
         {
+            var check = _userRepository.GetTempUserByUsername(username);
+
+            if(check != null)
+            {
+                throw new Exception("This username is already taken, please choose a new one.");
+            }
+
+
             ValidateEmail(email);
             ValidateUsername(username);
+            var otp = GenerateOTP();
 
             var tempUser = new TempUser
             {
                 Email = email,
                 Username = username,
                 Password = HashPassword(password),
-                Code = GenerateOTP(),
+                Code = otp,
                 ExpirationTime = DateTime.UtcNow.AddMinutes(3)
             };
 
+            SendEmail(email, otp);
 
             _userRepository.AddTempUser(tempUser);
         }
@@ -176,6 +187,33 @@ namespace IBLab.Service.impl
             }
 
             return true;
+        }
+
+        public void TFA(string username)
+        {
+            var checkUser = _userRepository.GetTempUserByUsername(username);
+
+            if(checkUser != null)
+            {
+                _userRepository.DeleteTempUserByUsername(username);
+            }
+
+            var code = GenerateOTP();
+            var user = _userRepository.GetUserByUsername(username);
+
+
+            var tempUser = new TempUser
+            {
+                Username = username,
+                Email = user.Email,
+                Code = code,
+                Password = user.Password,
+                ExpirationTime = DateTime.UtcNow.AddMinutes(3)
+            };
+
+            SendEmail(user.Email, code);
+
+            _userRepository.AddTempUser(tempUser);
         }
     }
 }

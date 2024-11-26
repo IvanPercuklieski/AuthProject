@@ -1,0 +1,36 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+
+<div class="text-center">
+    <h1>E-mail verification</h1><br />
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="danger text-center">
+            <div class="alert alert-danger">
+                <p>@TempData["ErrorMessage"]</p>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div>
+            <p class="alert-info fw-bold">An email with a verification code was sent, you have 3 minutes to put in the code.</p>
+        </div>
+    }
+
+    <form method="post" asp-action="TFA">
+        <label class="fw-bold" for="code">Enter the code:</label>
+        <input type="text" id="code" name="code" pattern="^\d{6}$" maxlength="6" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    <br /><div>
+        <a href="/Users/Login">Go back to the Login page.</a>
+    </div>
+</div>

@@ -41,13 +41,18 @@ namespace IBLab.Controllers
             return View();
         }
 
+        public IActionResult TFA()
+        {
+            return View();
+        }
+
         [HttpPost]
         public IActionResult Verification(string code)
         {
             try
             {
-                _userService.ValidateOTP(HttpContext.Session.GetString("Username"), code);
-                _userService.CreateUser(HttpContext.Session.GetString("Username"));
+                _userService.ValidateOTP(HttpContext.Session.GetString("TempUsername"), code);
+                _userService.CreateUser(HttpContext.Session.GetString("TempUsername"));
                 return RedirectToAction("Login");
             }
             catch (Exception ex)
@@ -57,15 +62,34 @@ namespace IBLab.Controllers
             }  
         }
 
+        [HttpPost]
+        public IActionResult TFA(string code)
+        {
+            try
+            {
+                _userService.ValidateOTP(HttpContext.Session.GetString("TempUsername"), code);
+                HttpContext.Session.SetString("Username", HttpContext.Session.GetString("TempUsername"));
+
+                return RedirectToAction("Index", "Home");
+            }
+            catch (Exception ex)
+            {
+                TempData["ErrorMessage"] = ex.Message;
+                return View();
+            }
+        }
+
 
         [HttpPost]
         public IActionResult Login(string username, string password)
         {
             try
             {
+                
                 _userService.ValidateLogin(username, password);
-                HttpContext.Session.SetString("Username", username);
-                return RedirectToAction("Index", "Home");
+                HttpContext.Session.SetString("TempUsername", username);
+                _userService.TFA(HttpContext.Session.GetString("TempUsername"));
+                return RedirectToAction("TFA");
             }
             catch (Exception ex)
             {
@@ -80,9 +104,8 @@ namespace IBLab.Controllers
         {
             try
             {
-                _userService.SendEmail(email);
                 _userService.CreateTempUser(email, username, password);
-                HttpContext.Session.SetString("Username", username);
+                HttpContext.Session.SetString("TempUsername", username);
                 return RedirectToAction("Verification");
             }
             catch (Exception ex)

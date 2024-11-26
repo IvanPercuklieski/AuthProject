@@ -15,11 +15,17 @@ namespace IBLab.Service.interfaces
 
         bool ValidatePassword(string password, User user);
 
-        void SendEmail(string email);
+        void SendEmail(string email, string code);
 
         string HashPassword(string password);
         void CreateTempUser(string email, string username, string password);
 
         bool ValidateOTP(string username, string code);
+
+        string GenerateOTP();
+
+        void TFA(string username);
+
+
     }
 }

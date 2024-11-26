@@ -18,5 +18,7 @@ namespace IBLab.Repository.Interfaces
         void AddTempUser(TempUser tempUser);
 
         TempUser GetTempUserByUsername(string username);
+
+        void DeleteTempUserByUsername(string username);
     }
 }
